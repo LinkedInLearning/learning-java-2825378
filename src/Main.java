@@ -7,8 +7,8 @@ public class Main {
 
         String studentFirstName = "Kayla";
         String studentLastName = "Hammon";
-        char studentFirstInitial = 'K';
-        char studentLastInitial = 'H';
+        char studentFirstInitial = studentFirstName.charAt(0);
+        char studentLastInitial = studentLastName.charAt(0);
 
         System.out.println(studentAge);
         System.out.println(studentGPA);
