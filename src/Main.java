@@ -10,8 +10,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        calculateTotalMealPrice(15, .20, .08);
-        calculateTotalMealPrice(25, .18, .08);
+        
     }
 
 }
