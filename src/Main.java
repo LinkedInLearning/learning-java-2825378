@@ -1,19 +1,26 @@
-import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        boolean isOnRepeat = true;
-        while(isOnRepeat) {
-            System.out.println("Playing current song");
-            System.out.println("Would you like to take this song off of repeat? If so, answer yes");
-            String userInput = input.next();
+    public static void main(String args[]) {
+        String question = "";
+        String choiceOne = "";
+        String choiceTwo = "";
+        String choiceThree = "";
 
-            if(userInput.equals("yes")) {
-                isOnRepeat = false;
-            }
-        }
-        System.out.println("Playing next song");
+        String correctAnswer = choiceTwo;
+
+        // Write a print statement asking the question
+        // Write a print statement giving the answer choices
+
+        // Have the user input an answer
+        // Retrieve the user's input
+
+        // If the user's input matches the correctAnswer...
+        // then the user is correct and we want to print out a congrats message to the user.
+
+        // If the user's input does not match the correctAnswer...
+        // then the user is incorrect and we want to print out a message saying that the user is incorrect as well as what the correct choice was.
+
     }
+
 }
