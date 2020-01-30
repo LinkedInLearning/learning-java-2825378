@@ -10,8 +10,10 @@ public class Main {
         double triangleBArea = triangleB.findArea();
         System.out.println(triangleBArea);
 
-        // Triangle.findArea()? --> Math.pow(2,3)?
+        System.out.println(triangleA.sideLenThree);
+        System.out.println(triangleB.base);
 
+        System.out.println(Triangle.numOfSides);
 
     }
 
