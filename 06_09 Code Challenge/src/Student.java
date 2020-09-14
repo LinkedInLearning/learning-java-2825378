@@ -17,7 +17,7 @@ public class Student {
         this.declaredMajor = declaredMajor;
     }
 
-    public int incrementYrToGrad(){
-        return ++ yrToGrad;
+    public void incrementYrToGrad(){
+        this.yrToGrad= this.yrToGrad +1;
     }
 }

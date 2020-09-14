@@ -10,8 +10,8 @@ public class Main {
 
         System.out.println("Student B first name:" + B.firstName);
         System.out.println("Student B graduate year:" + B.yrToGrad);
-
-        System.out.println("Student B graduate year after change: " + B.incrementYrToGrad());
+        B.incrementYrToGrad();
+        System.out.println("Student B graduate year after change: " + B.yrToGrad);
         //System.out.println();
         //System.out.println();
     }
