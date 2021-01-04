@@ -24,3 +24,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore Java bytecode files.
+*.class
